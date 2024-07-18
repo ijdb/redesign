@@ -10,7 +10,7 @@ const Button = ({
 	return (
 		<Link href={href}>
 			<div
-				className={`${color} ${textColor} ${size} px-8 py-5 tracking-widest font-semibold rounded-md inline-flex items-center justify-center m-4`}
+				className={`${color} ${textColor} ${size} cursor-pointer px-8 py-5 tracking-widest font-semibold rounded-md inline-flex items-center justify-center m-4`}
 			>
 				{text}
 				<svg
