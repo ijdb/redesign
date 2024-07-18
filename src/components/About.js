@@ -1,6 +1,6 @@
-function About({ title, color }) {
+function About({ title, color, size = "text-base" }) {
 	return (
-		<div className={`text-center leading-loose text-base font-light ${color}`}>
+		<div className={`text-center leading-loose ${size} font-light ${color}`}>
 			{title}
 		</div>
 	);

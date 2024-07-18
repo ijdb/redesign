@@ -1,6 +1,6 @@
-function Title({ title, color }) {
+function Title({ title, color, padding = "px-7", size = "text-3xl" }) {
 	return (
-		<div className={`text-3xl font-semibold  tracking-wide px-7 ${color}`}>
+		<div className={`font-semibold  tracking-wide ${padding} ${color} ${size}`}>
 			{title}
 		</div>
 	);

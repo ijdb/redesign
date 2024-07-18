@@ -75,7 +75,7 @@ const Footer = () => {
 					objectFit="contain"
 				/>
 
-				<div className="absolute bottom-0 left-0 right-0 text-center pb-5 text-white text-sm ">
+				<div className="absolute bottom-0 left-0 right-0 text-center pb-2 text-white text-sm ">
 					© 2024 Atrox. All rights reserved.
 				</div>
 			</div>
