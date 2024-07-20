@@ -4,14 +4,20 @@ import Image from "next/image";
 function CardHome({ title, text, icon, bg }) {
 	return (
 		<div
-			className={`flex flex-col items-center gap-10 ${bg} rounded-xl px-12 py-6 pb-7 sm:mx-10`}
+			className={`flex flex-col md:grid md:auto-rows-auto items-center md:items-start gap-10 md:gap-2 ${bg} 
+			rounded-xl px-12 md:p-4 py-6 pb-7  md:text-left md:w-10/12 sm:py-8`}
 		>
-			<div>
+			<div className="md:w-28">
 				<Image src={icon} />
 			</div>
 			<div className="flex flex-col gap-5">
-				<div className="font-semibold text-lg sm:text-xl">{title}</div>
-				<div className="text-gray-700 text-sm sm:text-base px-3 leading-loose">
+				<div className="font-semibold text-lg sm:text-xl md:text-base ">
+					{title}
+				</div>
+				<div
+					className="text-gray-700 text-sm sm:text-base px-3 md:px-0 
+					leading-loose md:leading-6 md:text-xs md:w-9/12 "
+				>
 					{text}
 				</div>
 			</div>
