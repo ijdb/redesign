@@ -9,7 +9,7 @@ import KnowMore from "@/components/KnowMore";
 
 function AboutSection() {
 	return (
-		<div className="flex flex-col gap-7 items-center text-center px-5 py-12">
+		<div className="flex flex-col gap-7 items-center text-center px-5 sm:px-8 py-12">
 			<Heading title="who are we" />
 			<Title
 				title="Building digital products from scratch"

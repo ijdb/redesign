@@ -21,7 +21,7 @@ const Footer = () => {
 	];
 
 	return (
-		<footer className="bg-purple-800 text-purple-200 px-5 pt-12 pr-10">
+		<footer className="bg-purple-800 text-purple-200 px-5 sm:px-8 pt-12 pr-10">
 			<div className="mb-10">
 				<Image src={atroxlogo} alt="brand logo" />
 			</div>
@@ -39,7 +39,7 @@ const Footer = () => {
 							))}
 						</ul>
 					</div>
-					<div>
+					<div className="sm:mr-48">
 						<div className="uppercase text-sm font-medium text-purple-500 mb-3">
 							Join Us
 						</div>

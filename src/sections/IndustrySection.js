@@ -25,21 +25,25 @@ const IndustriesWeWorkWith = () => {
 	];
 
 	return (
-		<div className="flex flex-col items-center px-6 my-16 text-center gap-5">
-			<div className="bg-red-200 flex flex-col items-center text-center gap-5 rounded-2xl p-4 py-8 mb-12 border-2 shadow-inner border-r-8 border-b-8 border-gray-800 ">
-				<div className="text-2xl font-semibold px-3">
-					Industries that We Work with
-				</div>
-				<About
-					title="Atrox helps enterprises and startups take their product ideas from 0
+		<div className="flex flex-col items-center px-6 sm:px-8 my-16 text-center gap-7">
+			<div className="bg-red-200 flex flex-col sm:flex-row items-center text-center gap-6 rounded-2xl p-4 py-8 mb-12 border-2 shadow-inner border-r-8 border-b-8 border-gray-800 ">
+				<div className="flex flex-col gap-5 sm:basis-1/2">
+					<div className="text-2xl font-semibold px-3">
+						Industries that We Work with
+					</div>
+					<About
+						title="Atrox helps enterprises and startups take their product ideas from 0
 					to 100. Our team of ex-Silicon Valley experts help companies from at
 					all stages build cutting edge solutions through product strategy,
 					design and revolutionary engineering."
-					size="text-xs"
-				/>
+						size="text-xs"
+					/>
+					<div className="sm:hidden">
+						<KnowMore href="/services" />
+					</div>
+				</div>
 
-				<KnowMore href="/services" />
-				<div className="flex flex-wrap gap-6 justify-center">
+				<div className="flex flex-wrap sm:basis-1/2 gap-6 justify-center">
 					{industries.map((industry, index) => (
 						<div key={index} className="flex flex-col items-center">
 							<div className="w-8 h-8 mb-2 relative">

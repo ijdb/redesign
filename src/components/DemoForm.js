@@ -30,11 +30,11 @@ const DemoBookingForm = () => {
 	const handleSubmit = (e) => {
 		e.preventDefault();
 		console.log("Form submitted:", formData);
-		// Here you would typically send the data to your backend
+		// send the data to your backend
 	};
 
 	return (
-		<div className=" bg-purple-100 rounded-2xl border border-purple-600 m-5 ">
+		<div className=" bg-purple-100 rounded-2xl border border-purple-600 m-5 sm:m-10 ">
 			<form className="" onSubmit={handleSubmit}>
 				<div>
 					<input
@@ -43,7 +43,8 @@ const DemoBookingForm = () => {
 						value={formData.businessEmail}
 						onChange={handleChange}
 						placeholder="Business email *"
-						className="w-full px-4 py-3  border-b rounded-t-2xl border-purple-600 bg-white placeholder-gray-400 text-xs"
+						className="w-full px-4 sm:px-6 py-3 sm:py-4 border-b rounded-t-2xl border-purple-600 bg-white 
+						placeholder-gray-400 text-xs sm:text-sm"
 						required
 					/>
 				</div>
@@ -54,7 +55,8 @@ const DemoBookingForm = () => {
 						value={formData.firstName}
 						onChange={handleChange}
 						placeholder="First name *"
-						className="w-full px-4 py-3  border-b border-purple-600 bg-white placeholder-gray-400 text-xs"
+						className="w-full px-4 sm:px-6 py-3 sm:py-4 border-b border-purple-600 bg-white 
+						placeholder-gray-400 text-xs sm:text-sm"
 						required
 					/>
 				</div>
@@ -65,7 +67,8 @@ const DemoBookingForm = () => {
 						value={formData.lastName}
 						onChange={handleChange}
 						placeholder="Last name *"
-						className="w-full px-4 py-3  border-b border-purple-600 bg-white placeholder-gray-400 text-xs"
+						className="w-full px-4 sm:px-6 py-3 sm:py-4 border-b border-purple-600 bg-white 
+						placeholder-gray-400 text-xs sm:text-sm"
 						required
 					/>
 				</div>
@@ -76,7 +79,8 @@ const DemoBookingForm = () => {
 						value={formData.phone}
 						onChange={handleChange}
 						placeholder="Phone *"
-						className="w-full px-4 py-3  border-b border-purple-600 bg-white placeholder-gray-400 text-xs"
+						className="w-full px-4 sm:px-6 py-3 sm:py-4 border-b border-purple-600 bg-white 
+						placeholder-gray-400 text-xs sm:text-sm"
 						required
 					/>
 				</div>
@@ -87,16 +91,20 @@ const DemoBookingForm = () => {
 						value={formData.companyName}
 						onChange={handleChange}
 						placeholder="Company Name *"
-						className="w-full px-4 py-3  border-b border-purple-600 bg-white placeholder-gray-400 text-xs"
+						className="w-full px-4 sm:px-6 py-3 sm:py-4 border-b border-purple-600 bg-white 
+						placeholder-gray-400 text-xs sm:text-sm"
 						required
 					/>
 				</div>
-				<div className="px-4 py-3 bg-white border-b border-purple-600 text-gray-400">
+				<div
+					className="px-4 py-3 sm:px-6 sm:py-4 bg-white border-b border-purple-600 
+				text-gray-400"
+				>
 					<select
 						name="country"
 						value={formData.country}
 						onChange={handleChange}
-						className="w-full text-xs"
+						className="w-full text-xs sm:text-sm"
 					>
 						<option value="">Select a country</option>
 						{countries.map((country, index) => (
@@ -113,14 +121,16 @@ const DemoBookingForm = () => {
 						value={formData.zipCode}
 						onChange={handleChange}
 						placeholder="ZIP code *"
-						className="w-full px-4 py-3  border-b border-purple-600 bg-white placeholder-gray-400 text-xs"
+						className="w-full px-4 sm:px-6 py-3 sm:py-4 border-b border-purple-600 bg-white 
+						placeholder-gray-400 text-xs sm:text-sm"
 						required
 					/>
 				</div>
-				<div className="flex flex-col px-8 py-6 border-b rounded-b-2xl bg-white">
+				<div className="flex flex-col sm:flex-row sm:gap-7 px-8 py-6 border-b rounded-b-2xl bg-white">
 					<button
 						type="submit"
-						className=" bg-purple-400 text-white px-3 py-2 text-sm rounded-lg font-medium hover:bg-purple-600 transition duration-300"
+						className=" bg-purple-400 text-white px-3 py-2 sm:px-2 sm:py-4 text-sm rounded-lg font-medium sm:text-sm 
+						hover:bg-purple-600 transition duration-300 sm:w-40"
 					>
 						Book a demo
 					</button>

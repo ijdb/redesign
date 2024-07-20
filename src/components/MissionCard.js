@@ -4,7 +4,7 @@ import arrow from "@/assets/arrow.svg";
 
 function MissionCard({ title, text }) {
 	return (
-		<div className="flex flex-col gap-7 bg-purple-600 text-white text-left p-12 border-none rounded-xl ">
+		<div className="flex flex-col gap-7 bg-purple-600 text-white text-left p-12 sm:p-8 border-none rounded-xl ">
 			<div className="uppercase text-xs font-semibold tracking-widest">
 				{title}
 			</div>

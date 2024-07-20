@@ -48,28 +48,33 @@ const stages = [
 
 const StrategyWorkshop = () => {
 	return (
-		<div id="StrategyWorkshop" className="bg-orange-50 p-5 py-14">
+		<div id="StrategyWorkshop" className="bg-orange-50 p-5 sm:px-8 py-14">
 			<div className="text-center mb-10">
 				<Title
 					title="The process merging business strategy & users needs"
 					size="text-2xl"
 				/>
 			</div>
-			<div>
+			<div className="sm:px-10">
 				{stages.map((stage, index) => (
 					<div key={index} className="relative mb-8 last:mb-0">
 						<div className="flex items-start">
-							<div className="relative mr-4">
-								<div className="bg-orange-100 text-yellow-600 text-[10px] font-semibold py-3 px-3 tracking-wider rounded-lg">
+							<div className="relative mr-4 sm:mr-6">
+								<div
+									className="bg-orange-100 text-yellow-600 text-[10px] sm:text-xs font-semibold 
+								py-3 sm:py-4 px-3 sm:px-4 tracking-wider rounded-lg"
+								>
 									STAGE {stage.number}
 								</div>
 								{index < stages.length - 1 && (
-									<div className="absolute left-1/2 top-full w-px h-28 bg-orange-300 -translate-x-1/2 "></div>
+									<div className="absolute left-1/2 top-full w-px h-28 sm:h-24 bg-orange-300 -translate-x-1/2 "></div>
 								)}
 							</div>
 							<div className="flex-1">
-								<h2 className="font-semibold mb-2 text-sm">{stage.title}</h2>
-								<p className="text-[11px] text-gray-800 leading-relaxed">
+								<h2 className="font-semibold mb-2 text-sm sm:text-base">
+									{stage.title}
+								</h2>
+								<p className="text-[11px] sm:text-xs text-gray-800 leading-relaxed">
 									{stage.description}
 								</p>
 							</div>

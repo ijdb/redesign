@@ -10,10 +10,10 @@ import ux6 from "@/assets/ux6.svg";
 
 function ServiceSecTwo() {
 	return (
-		<div className="flex flex-col gap-5 items-center text-center p-5 pt-12">
+		<div className="flex flex-col gap-5 sm:gap-6 items-center text-center p-5 sm:px-8 pt-12">
 			<Title
 				title="Services that transform businesses through design innovation"
-				size="text-2xl"
+				size="text-2xl sm:text-3xl"
 				padding="px-5"
 			/>
 			<About
@@ -23,7 +23,7 @@ function ServiceSecTwo() {
 				size="text-sm font-medium"
 			/>
 
-			<div className="flex flex-col gap-4">
+			<div className="flex flex-col sm:flex-row sm:justify-center sm:flex-wrap gap-4 sm:mt-7 sm:mb-7">
 				<UxCard icon={ux1} name="UX audit" />
 				<UxCard icon={ux2} name="Brand storytelling" />
 				<UxCard icon={ux3} name="Interface design" />

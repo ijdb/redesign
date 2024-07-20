@@ -20,7 +20,7 @@ const TechnologyStack = () => {
 	];
 
 	return (
-		<div className="flex flex-wrap justify-center gap-5">
+		<div className="flex flex-wrap justify-center gap-5 sm:mt-10">
 			{technologies.map((tech, index) => (
 				<div
 					key={index}

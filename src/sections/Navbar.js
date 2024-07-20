@@ -6,17 +6,16 @@ import Link from "next/link";
 
 function Navbar() {
 	return (
-		<div className="flex justify-between items-center px-5 py-8 bg-purple-800">
+		<div className="flex justify-between items-center px-5 sm:px-8 py-8 bg-purple-800">
 			<Link href="/">
 				<Image src={atroxwhitelogo} alt="company logo" />
 			</Link>
-			<div className="flex items-center gap-2.5">
-				<div className="text-white tracking-wide">Contact Us</div>
-
-				<Link href="/contactUs">
+			<Link href="/contactUs">
+				<div className="flex items-center gap-2.5">
+					<div className="text-white tracking-wide">Contact Us</div>
 					<BurgerIcon />
-				</Link>
-			</div>
+				</div>
+			</Link>
 		</div>
 	);
 }

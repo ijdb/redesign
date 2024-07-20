@@ -6,7 +6,9 @@ function KnowMore({ href }) {
 	return (
 		<Link href={href}>
 			<div className="flex text-red-500 items-center justify-center gap-3">
-				<div className="uppercase font-medium text-sm">know more</div>
+				<div className="uppercase font-medium text-sm sm:text-base tracking-wide">
+					know more
+				</div>
 				<div>
 					<Image src={redarrow} alt="" />
 				</div>

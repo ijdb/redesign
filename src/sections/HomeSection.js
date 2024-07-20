@@ -5,24 +5,31 @@ import Title from "@/components/Title";
 import Image from "next/image";
 import React from "react";
 import banner1 from "@/assets/banner1.png";
+import banner2 from "@/assets/banner2.svg";
 
 function HomeSection() {
 	return (
-		<div className="bg-purple-800 flex flex-col gap-7 items-center text-center px-5 pt-12">
-			<Heading title="product, design and engineering" />
-			<Title
-				title="Your product partner for tackling 
-                the digital frontier"
-				color="text-white"
-			/>
-			<About
-				title="Atrox combines strategy, 
+		<div className="bg-purple-800 pt-12">
+			<div className="flex flex-col items-center text-center gap-7 px-5 sm:px-8">
+				<Heading title="product, design and engineering" />
+				<Title
+					title="Your product partner for tackling 
+                	the digital frontier"
+					color="text-white"
+				/>
+				<About
+					title="Atrox combines strategy, 
             product, design and engineering to build 
             revolutionary digital products and experiences."
-				color="text-white"
-			/>
-			<Button href="/aboutUs" text="LEARN MORE" />
-			<Image src={banner1} alt="banner" />
+					color="text-white"
+					size="sm:text-lg"
+				/>
+				<Button href="/aboutUs" text="LEARN MORE" />
+			</div>
+			<div className="flex flex-col items-center sm:items-end">
+				<Image src={banner1} object-fit="contain" alt="banner" />
+			</div>
+			{/* <Image src={banner2} alt="banner" /> */}
 		</div>
 	);
 }

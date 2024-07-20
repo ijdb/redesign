@@ -7,7 +7,7 @@ import icon6 from "@/assets/icon6.svg";
 
 function SectionFour() {
 	return (
-		<div className="flex flex-col gap-7 items-center text-center px-5 pb-8 pt-12 mt-14 bg-orange-100">
+		<div className="flex flex-col gap-7 items-center text-center px-5 sm:px-8 pb-8 pt-12 mt-14 bg-orange-100">
 			<Title title="Diversity, Equity, Inclusion" />
 			<CardTwo
 				title="Simplicity"

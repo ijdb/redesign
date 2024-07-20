@@ -7,9 +7,12 @@ import DemoSteps from "@/components/DemoSteps";
 
 function phoneSection() {
 	return (
-		<div className="m-5 border border-purple-800 rounded-2xl bg-purple-100 relative pb-14 mb-24">
+		<div className="m-5 sm:m-8 border border-purple-800 rounded-2xl bg-purple-100 relative pb-14 mb-24 sm:mb-24">
 			<div className="flex items-center px-5">
-				<div className="text-purple-900 text-3xl font-medium leading-normal">
+				<div
+					className="text-purple-900 text-2xl sm:text-4xl m-2 sm:m-4 sm:mr-9 
+					font-medium leading-normal sm:leading-relaxed"
+				>
 					Ready to turn your vision into reality?
 				</div>
 				<Image src={phnset} />

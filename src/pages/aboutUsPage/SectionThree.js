@@ -5,10 +5,10 @@ import React from "react";
 
 function SectionThree() {
 	return (
-		<div className="flex flex-col gap-7 items-center text-center px-5 pt-12 mt-4 mb-4">
+		<div className="flex flex-col gap-7 items-center text-center px-5 sm:px-8 pt-12 mt-4 mb-4">
 			<Heading title="How it started" />
 			<Title title="How it all started" />
-			<div className="px-4 text-gray-700">
+			<div className="px-4 sm:px-5 text-gray-700">
 				Akshay and Dipanshu, both with a passion for coding and a thirst for
 				entrepreneurship, had been friends since their college days. Their paths
 				often crossed in hackathons and coding competitions, where they

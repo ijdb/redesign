@@ -11,6 +11,7 @@ function ServiceSection() {
 			<Title
 				title="Discover how we build revolutionary products"
 				padding="px-5"
+				size="text-2xl"
 			/>
 			<About
 				title="Atrox helps enterprises and startups take their product ideas from 0 to 100. 

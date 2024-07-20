@@ -8,7 +8,7 @@ import Image from "next/image";
 
 function SectionOne() {
 	return (
-		<div className="flex flex-col gap-7 items-center text-center px-5 pt-12 ">
+		<div className="flex flex-col gap-7 items-center text-center px-5 sm:px-8 pt-12 ">
 			<Heading title="About us" />
 			<Title title="Turning potential into growth." />
 			<About
