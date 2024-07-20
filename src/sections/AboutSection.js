@@ -21,7 +21,7 @@ function AboutSection() {
             passionate about helping companies create products that bring joy, scale and succeed. 
             It's simple- our goal is to create revolutionary products, together."
 			/>
-			<KnowMore />
+			<KnowMore href="/aboutUs" />
 			<CardHome
 				title="Assured proficiency"
 				text="Our interdisciplinary team brings Silicon Valley design and

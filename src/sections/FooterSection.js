@@ -6,8 +6,8 @@ import Image from "next/image";
 
 const Footer = () => {
 	const impLinks = [
-		{ name: "about", href: "/" },
-		{ name: "services", href: "/" },
+		{ name: "about", href: "/aboutUs" },
+		{ name: "services", href: "/services" },
 		{ name: "portfolio", href: "/" },
 		{ name: "labs", href: "/" },
 		{ name: "blogs", href: "/" },

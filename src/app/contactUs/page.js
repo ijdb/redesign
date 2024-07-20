@@ -7,8 +7,6 @@ function contactPage() {
 	return (
 		<div className="bg-purple-50">
 			<PhoneSection />
-			<UniverseSection />
-			<Footer />
 		</div>
 	);
 }

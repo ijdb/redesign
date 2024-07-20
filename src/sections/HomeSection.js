@@ -21,7 +21,7 @@ function HomeSection() {
             revolutionary digital products and experiences."
 				color="text-white"
 			/>
-			<Button href="/" text="LEARN MORE" />
+			<Button href="/aboutUs" text="LEARN MORE" />
 			<Image src={banner1} alt="banner" />
 		</div>
 	);

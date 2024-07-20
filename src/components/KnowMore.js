@@ -2,9 +2,9 @@ import Link from "next/link";
 import Image from "next/image";
 import redarrow from "@/assets/redarrow.svg";
 
-function KnowMore() {
+function KnowMore({ href }) {
 	return (
-		<Link href="#">
+		<Link href={href}>
 			<div className="flex text-red-500 items-center justify-center gap-3">
 				<div className="uppercase font-medium text-sm">know more</div>
 				<div>

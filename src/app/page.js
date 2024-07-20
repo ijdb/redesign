@@ -11,15 +11,12 @@ import UniverseSection from "@/sections/UniverseSection";
 function page() {
 	return (
 		<div className="flex flex-col">
-			<Navbar />
 			<HomeSection />
 			<AboutSection />
 			<ServiceSection />
 			<IndustriesWeWorkWith />
 			<Techsection />
 			<MsgSection />
-			<UniverseSection />
-			<Footer />
 		</div>
 	);
 }

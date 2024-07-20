@@ -18,7 +18,7 @@ function ServiceSection() {
                 solutions through product strategy, design and revolutionary engineering."
 				size="text-sm"
 			/>
-			<KnowMore />
+			<KnowMore href="/services" />
 		</div>
 	);
 }

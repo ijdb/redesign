@@ -38,7 +38,7 @@ const IndustriesWeWorkWith = () => {
 					size="text-xs"
 				/>
 
-				<KnowMore />
+				<KnowMore href="/services" />
 				<div className="flex flex-wrap gap-6 justify-center">
 					{industries.map((industry, index) => (
 						<div key={index} className="flex flex-col items-center">

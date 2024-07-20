@@ -18,8 +18,6 @@ function aboutPage() {
 			<SectionFour />
 			<Techsection />
 			<MsgSection />
-			<UniverseSection />
-			<Footer />
 		</div>
 	);
 }

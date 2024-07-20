@@ -48,7 +48,7 @@ const stages = [
 
 const StrategyWorkshop = () => {
 	return (
-		<div className="bg-orange-50 p-5 py-14">
+		<div id="StrategyWorkshop" className="bg-orange-50 p-5 py-14">
 			<div className="text-center mb-10">
 				<Title
 					title="The process merging business strategy & users needs"

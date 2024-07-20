@@ -16,7 +16,7 @@ function SectionOne() {
             needs a whole new lens to be seen from. Together, we can make an impact."
 				color="text-black"
 			/>
-			<Button href="/" text="LEARN MORE" />
+			{/* <Button href="/" text="LEARN MORE" /> */}
 			<Image src={Vector} alt="universe" />
 		</div>
 	);

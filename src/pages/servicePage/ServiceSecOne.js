@@ -20,7 +20,7 @@ function ServiceSecOne() {
                 with technical expertise to design immersive digital products."
 					size="text-sm"
 				/>
-				<Button href="/" text="LEARN MORE" />
+				<Button href="#StrategyWorkshop" text="LEARN MORE" />
 			</div>
 			<Image src={serviceux} />
 		</div>
