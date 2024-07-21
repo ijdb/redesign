@@ -26,83 +26,93 @@ const ContactForm = () => {
 	};
 
 	return (
-		<form onSubmit={handleSubmit} className="max-w-md mx-auto p-4">
-			<div className="mb-6">
-				<label
-					htmlFor="fullName"
-					className="block text-sm font-semibold text-black mb-1"
-				>
-					Your name
-				</label>
-				<input
-					type="text"
-					id="fullName"
-					name="fullName"
-					placeholder="Full name"
-					value={formData.fullName}
-					onChange={handleChange}
-					className="w-full px-3 py-3.5 border border-gray-300 rounded-lg text-sm"
-					required
-				/>
-			</div>
-
-			<div className="mb-6">
-				<label
-					htmlFor="company"
-					className="block text-sm font-semibold text-black mb-1"
-				>
-					Company <span className="text-gray-400">(optional)</span>
-				</label>
-				<input
-					type="text"
-					id="company"
-					name="company"
-					placeholder="Your company name"
-					value={formData.company}
-					onChange={handleChange}
-					className="w-full px-3 py-3.5 border border-gray-300 rounded-lg text-sm"
-				/>
-			</div>
-
-			<div className="mb-6">
-				<label
-					htmlFor="email"
-					className="block text-sm font-semibold text-black mb-1"
-				>
-					Email
-				</label>
-				<input
-					type="email"
-					id="email"
-					name="email"
-					placeholder="Email"
-					value={formData.email}
-					onChange={handleChange}
-					className="w-full px-3 py-3.5 border border-gray-300 rounded-lg text-sm"
-					required
-				/>
-			</div>
-
-			<div className="mb-6">
-				<label
-					htmlFor="phoneNumber"
-					className="block text-sm font-semibold text-black mb-1"
-				>
-					Phone number <span className="text-gray-400">(optional)</span>
-				</label>
-				<div className="flex">
-					<div className="flex-shrink-0 z-10 inline-flex items-center py-3.5 px-4 text-sm font-medium text-center text-gray-900 bg-gray-100 border border-gray-300 rounded-l-lg">
-						🇮🇳 IN +91
+		<form
+			onSubmit={handleSubmit}
+			className="max-w-md md:w-full p-4 md:p-0 md:basis-3/5"
+		>
+			<div className="md:grid md:grid-cols-2 md:gap-5">
+				<div>
+					<div className="mb-6">
+						<label
+							htmlFor="fullName"
+							className="block text-sm font-semibold text-black mb-1"
+						>
+							Your name
+						</label>
+						<input
+							type="text"
+							id="fullName"
+							name="fullName"
+							placeholder="Full name"
+							value={formData.fullName}
+							onChange={handleChange}
+							className="w-full px-3 py-3.5 md:py-2.5 border border-gray-300 rounded-lg text-sm"
+							required
+						/>
 					</div>
-					<input
-						type="tel"
-						id="phoneNumber"
-						name="phoneNumber"
-						placeholder="Phone number"
-						value={formData.phoneNumber}
-						onChange={handleChange}
-						className="rounded-none rounded-r-lg border text-gray-900 block flex-1 min-w-0 w-full text-sm p-2.5 border-gray-300"
-					/>
+					<div className="mb-6">
+						<label
+							htmlFor="company"
+							className="block text-sm font-semibold text-black mb-1"
+						>
+							Company <span className="text-gray-400">(optional)</span>
+						</label>
+						<input
+							type="text"
+							id="company"
+							name="company"
+							placeholder="Your company name"
+							value={formData.company}
+							onChange={handleChange}
+							className="w-full px-3 py-3.5 md:py-2.5 border border-gray-300 rounded-lg text-sm"
+						/>
+					</div>
+				</div>
+				<div>
+					<div className="mb-6">
+						<label
+							htmlFor="email"
+							className="block text-sm font-semibold text-black mb-1"
+						>
+							Email
+						</label>
+						<input
+							type="email"
+							id="email"
+							name="email"
+							placeholder="Email"
+							value={formData.email}
+							onChange={handleChange}
+							className="w-full px-3 py-3.5 md:py-2.5 border border-gray-300 rounded-lg text-sm"
+							required
+						/>
+					</div>
+					<div className="mb-6">
+						<label
+							htmlFor="phoneNumber"
+							className="block text-sm font-semibold text-black mb-1"
+						>
+							Phone number <span className="text-gray-400">(optional)</span>
+						</label>
+						<div className="flex">
+							<div
+								className="flex-shrink-0 z-10 inline-flex items-center py-3.5 md:py-2.5 px-2 text-sm font-medium 
+							text-center text-gray-900 bg-gray-100 border border-gray-300 rounded-l-lg"
+							>
+								🇮🇳 IN +91
+							</div>
+							<input
+								type="tel"
+								id="phoneNumber"
+								name="phoneNumber"
+								placeholder="Phone number"
+								value={formData.phoneNumber}
+								onChange={handleChange}
+								className="rounded-none rounded-r-lg border text-gray-900 block flex-1 min-w-0 w-full 
+								text-sm p-2.5 border-gray-300"
+							/>
+						</div>
+					</div>
 				</div>
 			</div>
 
@@ -124,7 +134,6 @@ const ContactForm = () => {
 					required
 				></textarea>
 			</div>
-
 			<div className="mb-6">
 				<label className="inline-flex items-center">
 					<input
@@ -139,7 +148,6 @@ const ContactForm = () => {
 					</span>
 				</label>
 			</div>
-
 			<div className="mb-6">
 				<label className="inline-flex items-center">
 					<input
@@ -154,15 +162,13 @@ const ContactForm = () => {
 					</span>
 				</label>
 			</div>
-
 			<button
 				type="submit"
 				className=" bg-red-500 text-white py-2 px-4 rounded-lg hover:bg-red-600 transition duration-300"
 			>
 				Send message
 			</button>
-
-			<p className="mt-3 text-xs text-gray-500">
+			<p className="mt-3 text-[11px] text-gray-500">
 				By clicking the button, I agree with the collection and processing of my
 				personal data as described in the Privacy Policy.
 			</p>

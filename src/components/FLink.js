@@ -6,7 +6,7 @@ function FLink({ text, href }) {
 		<>
 			<Link
 				href={href}
-				className="uppercase text-xs hover:text-white cursor-pointer"
+				className="uppercase text-xs md:text-[10px] hover:text-white cursor-pointer"
 			>
 				{text}
 			</Link>
