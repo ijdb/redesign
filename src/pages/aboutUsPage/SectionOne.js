@@ -11,7 +11,7 @@ function SectionOne() {
 	return (
 		<div
 			className="grid gap-7 md:grid md:grid-cols-2 items-center text-center md:text-left px-5 
-		sm:px-8 md:px-16 lg:px-28 xl:px-44 2xl:px-80 pt-12 "
+		sm:px-8 md:px-16 lg:px-28 xl:px-44 pt-12 "
 		>
 			<div className="flex flex-col gap-7">
 				<Heading title="About us" position="md:text-left" />

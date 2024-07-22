@@ -6,7 +6,7 @@ import React from "react";
 
 function ServiceSection() {
 	return (
-		<div className="flex flex-col gap-7 items-center text-center px-5 md:px-16 lg:px-28 xl:px-44 2xl:px-80 py-12 bg-orange-100">
+		<div className="flex flex-col gap-7 items-center text-center px-5 md:px-16 lg:px-28 xl:px-44 py-12 bg-orange-100">
 			<Heading title="our services" />
 			<Title
 				title="Discover how we build revolutionary products"

@@ -6,7 +6,7 @@ import Image from "next/image";
 
 function Techsection() {
 	return (
-		<div className="grid gap-7 items-center text-center px-5 sm:px-8 md:px-16 lg:px-28 xl:px-44 2xl:px-80 py-8 xl:py-16 2xl:py-20  mb-4 bg-purple-800">
+		<div className="grid gap-7 items-center text-center px-5 sm:px-8 md:px-16 lg:px-28 xl:px-44 py-8 xl:py-16 2xl:py-20  mb-4 bg-purple-800">
 			<div className="flex justify-between">
 				<div className="flex flex-col md:justify-center gap-7 md:gap-3 md:text-left md:basis-2/5">
 					<Title

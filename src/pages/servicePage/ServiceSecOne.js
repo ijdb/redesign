@@ -7,7 +7,7 @@ import Button from "@/components/Button";
 
 function ServiceSecOne() {
 	return (
-		<div className="flex flex-col items-center bg-purple-50 sm:px-8 md:px-16 lg:px-28 xl:px-44 2xl:px-80">
+		<div className="flex flex-col items-center bg-purple-50 sm:px-8 md:px-16 lg:px-28 xl:px-44">
 			<div className="flex flex-col gap-5 items-center text-center px-5 pt-12">
 				<Heading title="UI UX DESIGN COMPANY" />
 				<Title

@@ -12,7 +12,7 @@ function HomeSection() {
 		<div className="flex flex-col sm:flex-row bg-purple-800 pt-12">
 			<div
 				className="flex flex-col items-center md:items-start 
-				text-center md:text-left gap-7 xl:gap-10 px-5 sm:px-8 md:px-16 lg:px-28 xl:px-44 2xl:px-80 md:mb-14"
+				text-center md:text-left gap-7 xl:gap-10 px-5 sm:px-8 md:px-16 lg:px-28 xl:px-44 md:mb-14"
 			>
 				<Heading title="product, design and engineering" />
 				<Title
