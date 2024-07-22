@@ -21,7 +21,7 @@ const Footer = () => {
 	];
 
 	return (
-		<footer className="bg-purple-800 text-purple-200 pt-12 md:pt-14 pr-10 md:pr-16 xl:px-44 lg:pr-28">
+		<footer className="bg-purple-800 text-purple-200 pt-12 md:pt-14 pr-10 md:pr-16 xl:px-44 2xl:px-80 lg:pr-28">
 			<div className="md:flex md:relative md:items-start md:justify-between">
 				<div className="grid md:gap-20">
 					<div className="mb-10 px-5 sm:px-8 md:px-16 lg:px-28">

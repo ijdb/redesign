@@ -7,7 +7,7 @@ import Button from "@/components/Button";
 
 function Navbar() {
 	return (
-		<div className="flex justify-between items-center px-5 sm:px-8 md:px-16 lg:px-28 xl:px-44 py-8 bg-purple-800">
+		<div className="flex justify-between items-center px-5 sm:px-8 md:px-16 lg:px-28 xl:px-44 2xl:px-80 py-8 lg:py-10 bg-purple-800">
 			<Link href="/">
 				<Image src={atroxwhitelogo} alt="company logo" />
 			</Link>

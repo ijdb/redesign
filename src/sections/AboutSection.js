@@ -11,7 +11,7 @@ function AboutSection() {
 	return (
 		<div
 			className="flex flex-col gap-7 xl:gap-10 items-center text-center md:text-left px-5 
-		sm:px-8 md:px-16 lg:px-28 xl:px-44 py-12 md:py-16"
+		sm:px-8 md:px-16 lg:px-28 xl:px-44 2xl:px-80 py-12 md:py-16"
 		>
 			<div className="flex flex-col md:flex-row gap-7">
 				<div className="flex flex-col gap-7 md:gap-4 md:items-start md:basis-3/5">

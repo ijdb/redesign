@@ -8,7 +8,7 @@ import DemoSteps from "@/components/DemoSteps";
 function phoneSection() {
 	return (
 		<>
-			<div className="hidden md:flex md:justify-center md:m-16 xl:mx-44">
+			<div className="hidden md:flex md:justify-center md:m-16 xl:mx-44 2xl:px-80">
 				<div className="bg-purple-50 border md:border-4 border-purple-800 rounded-2xl basis-2/4">
 					<div className="flex items-center pl-6 pr-20">
 						<div className="text-purple-900 text-4xl m-2 font-medium leading-normal">

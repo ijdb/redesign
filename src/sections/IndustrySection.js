@@ -25,7 +25,7 @@ const IndustriesWeWorkWith = () => {
 	];
 
 	return (
-		<div className="flex flex-col items-center px-6 sm:px-8 md:px-16 lg:px-28 xl:px-44 my-16 text-center gap-7 md:gap-5">
+		<div className="flex flex-col items-center px-6 sm:px-8 md:px-16 lg:px-28 xl:px-44 2xl:px-80 my-16 text-center gap-7 md:gap-5">
 			<div
 				className="bg-red-200 flex flex-col sm:flex-row items-center text-center md:text-left gap-6 
 			rounded-2xl p-4 md:p-14 xl:mx-16 py-8 mb-12 border-2 md:border-4 shadow-inner border-r-8 md:border-r-8 border-b-8 md:border-b-8 border-gray-800 "
