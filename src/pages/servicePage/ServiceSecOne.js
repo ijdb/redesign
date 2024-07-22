@@ -1,4 +1,3 @@
-import About from "@/components/About";
 import Heading from "@/components/Heading";
 import Title from "@/components/Title";
 import serviceux from "@/assets/serviceux.svg";
