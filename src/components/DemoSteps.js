@@ -21,7 +21,7 @@ function DemoSteps() {
 			<h2 className="text-lg sm:text-2xl font-medium  mb-6">What to expect</h2>
 			<div className="flex flex-col sm:flex-row gap-3">
 				{steps.map((step) => (
-					<div className="flex flex-col gap-5">
+					<div key={step.title} className="flex flex-col gap-5">
 						<div className="uppercase font-bold tracking-wider">
 							{step.title}
 						</div>

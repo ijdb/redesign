@@ -41,8 +41,8 @@ const Footer = () => {
 						</div>
 						<ul className="space-y-1">
 							{impLinks.map((item) => (
-								<li>
-									<FLink text={item.name} href={item.href} key={item.name} />
+								<li key={item.name}>
+									<FLink text={item.name} href={item.href} />
 								</li>
 							))}
 						</ul>
@@ -57,8 +57,8 @@ const Footer = () => {
 						</div>
 						<ul className="space-y-1">
 							{socialLinks.map((item) => (
-								<li>
-									<FLink text={item.name} href={item.href} key={item.name} />
+								<li key={item.name}>
+									<FLink text={item.name} href={item.href} />
 								</li>
 							))}
 						</ul>
@@ -89,8 +89,8 @@ const Footer = () => {
 						</div>
 						<ul className="space-y-1">
 							{impLinks.map((item) => (
-								<li>
-									<FLink text={item.name} href={item.href} key={item.name} />
+								<li key={item.name}>
+									<FLink text={item.name} href={item.href} />
 								</li>
 							))}
 						</ul>
@@ -105,8 +105,8 @@ const Footer = () => {
 						</div>
 						<ul className="space-y-1">
 							{socialLinks.map((item) => (
-								<li>
-									<FLink text={item.name} href={item.href} key={item.name} />
+								<li key={item.name}>
+									<FLink text={item.name} href={item.href} />
 								</li>
 							))}
 						</ul>

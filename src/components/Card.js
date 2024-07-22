@@ -6,7 +6,7 @@ function Card({ title, text, bg, icon, self }) {
 		<div
 			className={`flex flex-col gap-9 md:gap-5 ${bg} ${self} p-9 md:p-6 rounded-xl`}
 		>
-			<Image src={icon} />
+			<Image src={icon} alt="n" />
 			<div className="text-left text-2xl md:text-lg font-semibold tracking-wide">
 				{title}
 			</div>

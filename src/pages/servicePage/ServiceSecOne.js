@@ -22,7 +22,7 @@ function ServiceSecOne() {
 				/>
 				<Button href="#StrategyWorkshop" text="LEARN MORE" />
 			</div>
-			<Image src={serviceux} />
+			<Image src={serviceux} alt="" />
 		</div>
 	);
 }

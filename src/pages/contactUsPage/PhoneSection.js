@@ -32,7 +32,7 @@ function phoneSection() {
 					>
 						Ready to turn your vision into reality?
 					</div>
-					<Image src={phnset} />
+					<Image src={phnset} alt="" />
 				</div>
 				<DemoBookingForm />
 				<DemoFormTwo />

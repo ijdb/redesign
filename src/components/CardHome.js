@@ -8,7 +8,7 @@ function CardHome({ title, text, icon, bg }) {
 			rounded-xl px-12 md:p-4 py-6 pb-7  md:text-left md:w-10/12 sm:py-8`}
 		>
 			<div className="md:w-28">
-				<Image src={icon} />
+				<Image src={icon} alt="" />
 			</div>
 			<div className="flex flex-col gap-5">
 				<div className="font-semibold text-lg sm:text-xl md:text-base ">

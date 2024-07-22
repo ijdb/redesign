@@ -44,7 +44,10 @@ function TechCard() {
 	return (
 		<div className="flex flex-wrap gap-2 justify-center">
 			{techIcons.map((icon) => (
-				<div className="flex justify-center items-center bg-white w-24 h-10 sm:w-20 md:w-24 sm:h-9 md:h-10 rounded-lg border-none">
+				<div
+					key={icon}
+					className="flex justify-center items-center bg-white w-24 h-10 sm:w-20 md:w-24 sm:h-9 md:h-10 rounded-lg border-none"
+				>
 					<Image src={icon} alt="" />
 				</div>
 			))}

@@ -7,13 +7,13 @@ function Gallery() {
 	return (
 		<div className="hidden md:flex md:px-16 lg:px-28 md:gap-5 md:mt-12">
 			<div>
-				<Image src={view1} />
+				<Image src={view1} alt="" />
 			</div>
 			<div>
-				<Image src={view2} />
+				<Image src={view2} alt="" />
 			</div>
 			<div>
-				<Image src={view3} />
+				<Image src={view3} alt="" />
 			</div>
 		</div>
 	);

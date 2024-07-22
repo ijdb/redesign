@@ -14,7 +14,7 @@ function MissionCard({ title, text }) {
 			<div className="text-2xl md:text-3xl font-semibold tracking-wider w-60 md:w-72 leading-loose md:leading-10">
 				{text}
 			</div>
-			<Image src={arrow} />
+			<Image src={arrow} alt="" />
 		</div>
 	);
 }
