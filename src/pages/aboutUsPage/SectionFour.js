@@ -8,7 +8,7 @@ import icon6 from "@/assets/icon6.svg";
 function SectionFour() {
 	return (
 		<div
-			className="flex flex-col gap-7 items-center text-center px-5 sm:px-8 md:px-16 lg:px-28 
+			className="flex flex-col gap-7 items-center text-center px-5 sm:px-8 md:px-16 lg:px-28 xl:px-44 
 			pb-8 pt-12 mt-14 bg-orange-100"
 		>
 			<Title title="Diversity, Equity, Inclusion" size="md:text-2xl" />

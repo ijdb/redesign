@@ -6,8 +6,8 @@ import React from "react";
 function SectionThree() {
 	return (
 		<div
-			className="flex flex-col gap-7 md:grid md:grid-cols-2 items-center 
-			text-center px-5 sm:px-8 md:px-16 lg:px-28 pt-12 mt-4 mb-4 md:mb-0"
+			className="flex flex-col gap-7 md:grid md:grid-cols-2 items-center  
+			text-center px-5 sm:px-8 md:px-16 lg:px-28 xl:px-44 pt-12 lg:pt-16 bg-purple-50 mt-4 mb-4 md:mb-0"
 		>
 			<div className="flex flex-col gap-7 md:gap-4 md:text-left">
 				<Heading title="How it started" position="md:text-left" />

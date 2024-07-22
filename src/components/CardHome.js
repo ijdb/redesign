@@ -5,7 +5,7 @@ function CardHome({ title, text, icon, bg }) {
 	return (
 		<div
 			className={`flex flex-col md:grid md:auto-rows-auto items-center md:items-start gap-10 md:gap-2 ${bg} 
-			rounded-xl px-12 md:p-4 py-6 pb-7  md:text-left md:w-10/12 sm:py-8`}
+			rounded-xl px-12 md:p-4 xl:p-6 py-6 pb-7 md:text-left md:w-10/12 sm:py-8`}
 		>
 			<div className="md:w-28">
 				<Image src={icon} alt="" />

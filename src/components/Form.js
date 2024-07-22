@@ -141,7 +141,7 @@ const ContactForm = () => {
 						name="sendNDA"
 						checked={formData.sendNDA}
 						onChange={handleChange}
-						className="form-checkbox h-5 w-5 accent-slate-50 "
+						className="form-checkbox h-5 w-5"
 					/>
 					<span className="ml-2 text-xs text-black font-medium">
 						Send me NDA
@@ -155,7 +155,7 @@ const ContactForm = () => {
 						name="receiveNewsletter"
 						checked={formData.receiveNewsletter}
 						onChange={handleChange}
-						className="form-checkbox h-5 w-5 accent-slate-50"
+						className="form-checkbox h-5 w-5"
 					/>
 					<span className="ml-2 text-xs text-black font-medium">
 						I want to receive a monthly tech newsletter

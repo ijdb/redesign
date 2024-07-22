@@ -9,7 +9,10 @@ import KnowMore from "@/components/KnowMore";
 
 function AboutSection() {
 	return (
-		<div className="flex flex-col gap-7 items-center text-center md:text-left px-5 sm:px-8 md:px-16 lg:px-28 py-12 md:py-16">
+		<div
+			className="flex flex-col gap-7 xl:gap-10 items-center text-center md:text-left px-5 
+		sm:px-8 md:px-16 lg:px-28 xl:px-44 py-12 md:py-16"
+		>
 			<div className="flex flex-col md:flex-row gap-7">
 				<div className="flex flex-col gap-7 md:gap-4 md:items-start md:basis-3/5">
 					<Heading title="who are we" />
@@ -17,7 +20,7 @@ function AboutSection() {
 						title="Building digital products from scratch"
 						color="text-black"
 						padding="px-5"
-						size="md:text-xl"
+						size="md:text-xl xl:text-2xl"
 					/>
 				</div>
 				<div className="flex flex-col gap-7 md:gap-4 md:items-start md:basis-2/5">
@@ -31,7 +34,7 @@ function AboutSection() {
 				</div>
 			</div>
 
-			<div className="flex flex-col md:flex-row sm:gap-x-4 gap-y-7 w-full justify-center  relative">
+			<div className="flex flex-col md:flex-row sm:gap-x-4 gap-y-7 xl:gap-12 w-full justify-center relative">
 				<CardHome
 					title="Assured proficiency"
 					text="Our interdisciplinary team brings Silicon Valley design and

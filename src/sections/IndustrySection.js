@@ -25,13 +25,13 @@ const IndustriesWeWorkWith = () => {
 	];
 
 	return (
-		<div className="flex flex-col items-center px-6 sm:px-8 md:px-16 lg:px-28 my-16 text-center gap-7 md:gap-5">
+		<div className="flex flex-col items-center px-6 sm:px-8 md:px-16 lg:px-28 xl:px-44 my-16 text-center gap-7 md:gap-5">
 			<div
 				className="bg-red-200 flex flex-col sm:flex-row items-center text-center md:text-left gap-6 
-			rounded-2xl p-4 md:p-14 py-8 mb-12 border-2 md:border-4 shadow-inner border-r-8 md:border-r-8 border-b-8 md:border-b-8 border-gray-800 "
+			rounded-2xl p-4 md:p-14 xl:mx-16 py-8 mb-12 border-2 md:border-4 shadow-inner border-r-8 md:border-r-8 border-b-8 md:border-b-8 border-gray-800 "
 			>
 				<div className="flex flex-col gap-5 sm:basis-1/2 md:basis-2/5 md:mr-10">
-					<div className="text-2xl font-semibold px-3 md:px-0">
+					<div className="text-2xl xl:text-3xl font-semibold px-3 md:px-0">
 						Industries that We Work with
 					</div>
 					<About
@@ -39,7 +39,8 @@ const IndustriesWeWorkWith = () => {
 					to 100. Our team of ex-Silicon Valley experts help companies from at
 					all stages build cutting edge solutions through product strategy,
 					design and revolutionary engineering."
-						size="text-xs"
+						size="text-xs xl:text-sm"
+						leading="xl:leading-loose"
 					/>
 					<div className="sm:hidden">
 						<KnowMore href="/services" />
@@ -64,17 +65,17 @@ const IndustriesWeWorkWith = () => {
 					))}
 				</div>
 			</div>
-			<div className="flex flex-col gap-7 md:gap-10 md:flex md:flex-row md:text-left">
+			<div className="flex flex-col gap-7 md:gap-10 md:flex md:flex-row md:text-left xl:mx-16 ">
 				<Title
 					title="Converting your idea into a pillar of the startup community"
-					size="text-2xl md:text-xl"
+					size="text-2xl md:text-xl xl:text-2xl"
 				/>
 				<About
 					title="At  Atrox, we build your digital product idea from the ground
 			 	up and make it an investors' favourite. A journey that starts and is embedded 
 				with emerging technologies."
-					size="text-sm md:text-xs"
-					leading="lg:leading-loose"
+					size="text-sm md:text-xs xl:text-sm"
+					leading="lg:leading-loose xl:leading-loose"
 				/>
 			</div>
 

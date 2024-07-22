@@ -50,7 +50,7 @@ const StrategyWorkshop = () => {
 	return (
 		<div
 			id="StrategyWorkshop"
-			className="bg-orange-50 p-5 sm:px-8 md:px-16 lg:px-28 py-14"
+			className="bg-orange-50 p-5 sm:px-8 md:px-16 lg:px-28 xl:px-44 py-14"
 		>
 			<div className="text-center mb-10">
 				<Title

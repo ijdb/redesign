@@ -19,7 +19,7 @@ const HowItWorks = () => {
 
 	return (
 		<div className="max-w-2xl p-6 md:p-0 md:basis-1/3">
-			<h2 className="text-2xl font-bold mb-8 tracking-wider">
+			<h2 className="text-2xl xl:text-3xl font-bold mb-8 tracking-wider">
 				How does it work?
 			</h2>
 			<div className="space-y-2">

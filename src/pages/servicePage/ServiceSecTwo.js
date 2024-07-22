@@ -10,7 +10,7 @@ import ux6 from "@/assets/ux6.svg";
 
 function ServiceSecTwo() {
 	return (
-		<div className="flex flex-col gap-5 sm:gap-6 items-center text-center p-5 sm:px-8 md:px-16 lg:px-28 pt-12">
+		<div className="flex flex-col gap-5 sm:gap-6 items-center text-center p-5 sm:px-8 md:px-16 lg:px-28 xl:px-44 pt-12">
 			<Title
 				title="Services that transform businesses through design innovation"
 				size="text-2xl sm:text-3xl"
