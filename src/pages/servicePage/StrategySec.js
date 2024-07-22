@@ -48,7 +48,10 @@ const stages = [
 
 const StrategyWorkshop = () => {
 	return (
-		<div id="StrategyWorkshop" className="bg-orange-50 p-5 sm:px-8 py-14">
+		<div
+			id="StrategyWorkshop"
+			className="bg-orange-50 p-5 sm:px-8 md:px-16 lg:px-28 py-14"
+		>
 			<div className="text-center mb-10">
 				<Title
 					title="The process merging business strategy & users needs"

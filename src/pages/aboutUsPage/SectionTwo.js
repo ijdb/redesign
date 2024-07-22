@@ -6,7 +6,7 @@ import icon3 from "@/assets/icon3.svg";
 
 function SectionTwo() {
 	return (
-		<div className="flex flex-col gap-7 items-center text-center px-5 sm:px-8 md:px-16 pt-12 mt-4 mb-4">
+		<div className="flex flex-col gap-7 items-center text-center px-5 sm:px-8 md:px-16 lg:px-28 pt-12 mt-4 mb-4">
 			<Title title="Diversity, Equity, Inclusion" size="md:text-2xl" />
 			<div className="grid gap-7 md:gap-8 md:flex md:h-96">
 				<Card

@@ -10,7 +10,7 @@ import ux6 from "@/assets/ux6.svg";
 
 function ServiceSecTwo() {
 	return (
-		<div className="flex flex-col gap-5 sm:gap-6 items-center text-center p-5 sm:px-8 pt-12">
+		<div className="flex flex-col gap-5 sm:gap-6 items-center text-center p-5 sm:px-8 md:px-16 lg:px-28 pt-12">
 			<Title
 				title="Services that transform businesses through design innovation"
 				size="text-2xl sm:text-3xl"
@@ -37,7 +37,7 @@ function ServiceSecTwo() {
 function UxCard({ icon, name }) {
 	return (
 		<div className="flex flex-col justify-between items-start border-2 border-purple-700 bg-purple-50 rounded-2xl w-72 h-72 p-5">
-			<Image src={icon} />
+			<Image src={icon} alt="" />
 			<div className="uppercase text-purple-700 font-medium">{name}</div>
 		</div>
 	);

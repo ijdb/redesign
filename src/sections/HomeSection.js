@@ -12,7 +12,7 @@ function HomeSection() {
 		<div className="flex flex-col sm:flex-row bg-purple-800 pt-12 ">
 			<div
 				className="flex flex-col items-center md:items-start 
-				text-center md:text-left gap-7 px-5 sm:px-8 md:px-16 md:mb-14"
+				text-center md:text-left gap-7 px-5 sm:px-8 md:px-16 lg:px-28 md:mb-14"
 			>
 				<Heading title="product, design and engineering" />
 				<Title
@@ -22,9 +22,8 @@ function HomeSection() {
 					size="md:text-3xl"
 				/>
 				<About
-					title="Atrox combines strategy, 
-            product, design and engineering to build 
-            revolutionary digital products and experiences."
+					title="Atrox combines strategy, product, design and engineering to build revolutionary 
+					digital products and experiences."
 					color="text-white"
 					size="sm:text-lg md:text-sm"
 				/>

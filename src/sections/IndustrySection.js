@@ -25,7 +25,7 @@ const IndustriesWeWorkWith = () => {
 	];
 
 	return (
-		<div className="flex flex-col items-center px-6 sm:px-8 md:px-16 my-16 text-center gap-7 md:gap-5">
+		<div className="flex flex-col items-center px-6 sm:px-8 md:px-16 lg:px-28 my-16 text-center gap-7 md:gap-5">
 			<div
 				className="bg-red-200 flex flex-col sm:flex-row items-center text-center md:text-left gap-6 
 			rounded-2xl p-4 md:p-14 py-8 mb-12 border-2 md:border-4 shadow-inner border-r-8 md:border-r-8 border-b-8 md:border-b-8 border-gray-800 "
@@ -74,6 +74,7 @@ const IndustriesWeWorkWith = () => {
 			 	up and make it an investors' favourite. A journey that starts and is embedded 
 				with emerging technologies."
 					size="text-sm md:text-xs"
+					leading="lg:leading-loose"
 				/>
 			</div>
 

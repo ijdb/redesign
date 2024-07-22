@@ -5,7 +5,7 @@ import view3 from "@/assets/view3.png";
 
 function Gallery() {
 	return (
-		<div className="hidden md:flex md:px-16 md:gap-5 md:mt-12">
+		<div className="hidden md:flex md:px-16 lg:px-28 md:gap-5 md:mt-12">
 			<div>
 				<Image src={view1} />
 			</div>

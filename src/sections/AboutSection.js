@@ -9,9 +9,9 @@ import KnowMore from "@/components/KnowMore";
 
 function AboutSection() {
 	return (
-		<div className="flex flex-col gap-7 items-center text-center md:text-left px-5 sm:px-8 md:px-16 py-12">
+		<div className="flex flex-col gap-7 items-center text-center md:text-left px-5 sm:px-8 md:px-16 lg:px-28 py-12 md:py-16">
 			<div className="flex flex-col md:flex-row gap-7">
-				<div className="flex flex-col gap-7 md:gap-4 md:items-start md:basis-3/6">
+				<div className="flex flex-col gap-7 md:gap-4 md:items-start md:basis-3/5">
 					<Heading title="who are we" />
 					<Title
 						title="Building digital products from scratch"
@@ -20,12 +20,12 @@ function AboutSection() {
 						size="md:text-xl"
 					/>
 				</div>
-				<div className="flex flex-col gap-7 md:items-start md:basis-2/5">
+				<div className="flex flex-col gap-7 md:gap-4 md:items-start md:basis-2/5">
 					<About
-						title="We're a team of product managers, engineers and designers 
-            passionate about helping companies create products that bring joy, scale and succeed. 
-            It's simple- our goal is to create revolutionary products, together."
-						size="md:text-xs"
+						title="We're a team of product managers, engineers and designers passionate about helping 
+						companies create products that bring joy, scale and succeed. 
+           				 It's simple- our goal is to create revolutionary products, together."
+						size="md:text-sm"
 					/>
 					<KnowMore href="/aboutUs" />
 				</div>
