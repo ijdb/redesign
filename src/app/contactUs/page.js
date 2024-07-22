@@ -5,7 +5,7 @@ import React from "react";
 
 function contactPage() {
 	return (
-		<div className="bg-purple-50">
+		<div className="">
 			<PhoneSection />
 		</div>
 	);

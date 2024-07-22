@@ -34,7 +34,7 @@ const DemoBookingForm = () => {
 	};
 
 	return (
-		<div className=" bg-purple-100 rounded-2xl border border-purple-600 m-5 sm:m-10 ">
+		<div className=" bg-purple-100 rounded-2xl border md:border-4 border-purple-800 m-5 md:-m-10 md:mt-16 sm:m-10">
 			<form className="" onSubmit={handleSubmit}>
 				<div>
 					<input
@@ -126,11 +126,11 @@ const DemoBookingForm = () => {
 						required
 					/>
 				</div>
-				<div className="flex flex-col sm:flex-row sm:gap-7 px-8 py-6 border-b rounded-b-2xl bg-white">
+				<div className="flex flex-col sm:flex-row sm:gap-7 md:gap-5 px-8 py-6 md:px-4 border-b rounded-b-2xl bg-white">
 					<button
 						type="submit"
-						className=" bg-purple-400 text-white px-3 py-2 sm:px-2 sm:py-4 text-sm rounded-lg font-medium sm:text-sm 
-						hover:bg-purple-600 transition duration-300 sm:w-40"
+						className=" bg-purple-400 text-white px-3 py-2 sm:px-2 md:px-1 sm:py-4 text-sm 
+						rounded-lg font-medium sm:text-sm hover:bg-purple-600 transition duration-300 sm:w-40 md:w-44"
 					>
 						Book a demo
 					</button>
