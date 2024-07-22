@@ -12,14 +12,14 @@ function ServiceSecOne() {
 				<Heading title="UI UX DESIGN COMPANY" />
 				<Title
 					title="Your UI UX design company for unforgettable experiences"
-					size="text-2xl"
+					size="text-2xl lg:text-3xl"
 					padding="px-6"
 				/>
-				<About
-					title="We are the UI UX design agency that merges design capabilities 
-                with technical expertise to design immersive digital products."
-					size="text-sm"
-				/>
+				<div className="font-light text-sm leading-loose lg:px-10">
+					We are the UI UX design agency that merges design capabilities with
+					technical expertise to design immersive digital products.
+				</div>
+
 				<Button href="#StrategyWorkshop" text="LEARN MORE" />
 			</div>
 			<Image src={serviceux} alt="" />
