@@ -2,7 +2,7 @@ import Link from "next/link";
 
 function ServiceSubSection() {
 	return (
-		<div className="hidden md:flex md:px-16 bg-orange-100 md:gap-5 md:py-8">
+		<div className="hidden md:flex md:px-16 bg-orange-100 md:gap-5 md:py-8 md:justify-center">
 			<Card
 				name="Product Discovery"
 				text="We help you arrive at a solid understanding of your target market,
@@ -28,7 +28,7 @@ function ServiceSubSection() {
 
 function Card({ name, text, link }) {
 	return (
-		<div className="grid w-80 border-2 border-gray-400 rounded-xl p-6 gap-5">
+		<div className="grid w-96 border-2 border-gray-400 rounded-xl p-6 gap-5">
 			<div className="text-2xl font-semibold">{name}</div>
 			<div className="text-sm tracking-normal leading-relaxed text-gray-700">
 				{text}
