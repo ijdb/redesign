@@ -46,7 +46,9 @@ function UxCard({ icon, name }) {
 		rounded-2xl w-72 h-72 md:w-64 md:h-64 lg:w-72 lg:h-72 p-5 tracking-widest"
 		>
 			<Image src={icon} alt="" />
-			<div className="uppercase text-purple-700 font-medium">{name}</div>
+			<div className="uppercase text-purple-700 font-medium text-sm">
+				{name}
+			</div>
 		</div>
 	);
 }

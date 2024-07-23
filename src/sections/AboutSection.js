@@ -19,7 +19,7 @@ function AboutSection() {
 					<Title
 						title="Building digital products from scratch"
 						color="text-black"
-						padding="px-5"
+						padding="px-5 md:pr-10"
 						size="md:text-xl xl:text-2xl"
 					/>
 				</div>
@@ -29,6 +29,7 @@ function AboutSection() {
 						companies create products that bring joy, scale and succeed. 
            				 It's simple- our goal is to create revolutionary products, together."
 						size="md:text-sm"
+						leading="md:leading-loose"
 					/>
 					<KnowMore href="/aboutUs" />
 				</div>
