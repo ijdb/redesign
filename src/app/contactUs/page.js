@@ -1,6 +1,5 @@
 import PhoneSection from "@/pages/contactUsPage/PhoneSection";
-import Footer from "@/sections/FooterSection";
-import UniverseSection from "@/sections/UniverseSection";
+import PhoneSectiontwo from "@/pages/contactUsPage/PhoneSectiontwo";
 import React from "react";
 
 function contactPage() {

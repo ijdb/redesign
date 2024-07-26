@@ -6,7 +6,7 @@ import Image from "next/image";
 function DemoFormTwo() {
 	return (
 		<div className="px-5 sm:px-9 py-7">
-			<h2 className="text-lg sm:text-xl font-medium text-purple-900 mb-4">
+			<h2 className="text-lg sm:text-xl font-semibold text-purple-900 mb-4">
 				Contact us:
 			</h2>
 			<div className="flex flex-col gap-3">
